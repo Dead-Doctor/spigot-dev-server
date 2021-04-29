@@ -1,0 +1,17 @@
+{
+  "name": "spigot-dev-server",
+  "description": "An easy way to debug spigot plugins!",
+  "version": "1.0.0",
+  "main": "./src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . --platform=win32 --arch=x64"
+  },
+  "author": "DeadDoctor",
+  "license": "GPL-3.0-only",
+  "devDependencies": {
+    "electron": "^11.3.0",
+    "electron-packager": "^15.2.0"
+  },
+  "dependencies": {}
+}
